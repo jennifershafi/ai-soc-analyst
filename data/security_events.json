@@ -1,0 +1,58 @@
+[
+  {
+    "timestamp": "2026-10-01T09:14:33Z",
+    "event_type": "login_failed",
+    "username": "a.patel",
+    "source_ip": "203.0.113.77",
+    "reason": "bad_password"
+  },
+  {
+    "timestamp": "2026-10-01T09:14:41Z",
+    "event_type": "login_failed",
+    "username": "a.patel",
+    "source_ip": "203.0.113.77",
+    "reason": "bad_password"
+  },
+  {
+    "timestamp": "2026-10-01T09:14:50Z",
+    "event_type": "login_failed",
+    "username": "a.patel",
+    "source_ip": "203.0.113.77",
+    "reason": "bad_password"
+  },
+  {
+    "timestamp": "2026-10-01T09:15:02Z",
+    "event_type": "login_failed",
+    "username": "a.patel",
+    "source_ip": "203.0.113.77",
+    "reason": "bad_password"
+  },
+  {
+    "timestamp": "2026-10-01T09:15:16Z",
+    "event_type": "login_failed",
+    "username": "a.patel",
+    "source_ip": "203.0.113.77",
+    "reason": "bad_password"
+  },
+  {
+    "timestamp": "2026-10-01T09:16:04Z",
+    "event_type": "login_success",
+    "username": "a.patel",
+    "source_ip": "203.0.113.77",
+    "mfa": "success"
+  },
+  {
+    "timestamp": "2026-10-01T09:22:51Z",
+    "event_type": "file_access",
+    "username": "a.patel",
+    "source_ip": "203.0.113.77",
+    "resource": "/Finance/Q3-Forecast.xlsx"
+  },
+  {
+    "timestamp": "2026-10-01T09:26:02Z",
+    "event_type": "file_download",
+    "username": "a.patel",
+    "source_ip": "203.0.113.77",
+    "resource": "/Finance/Q3-Forecast.xlsx"
+  }
+]
