@@ -54,6 +54,7 @@ def detect_suspicious_login_chain(events, threshold=5):
                     "source_ip": source_ip,
                     "failed_attempts": failure_counts[key],
                     "timestamp": event.get("timestamp"),
+                    "mfa": event.get("mfa"),
                     "description": (
                         f"{username} successfully authenticated from "
                         f"{source_ip} after {failure_counts[key]} failed attempts"
@@ -92,6 +93,7 @@ def detect_post_login_file_activity(events, threshold=5):
                     "activity": event_type,
                     "resource": event.get("resource"),
                     "timestamp": event.get("timestamp"),
+                    "mfa": event.get("mfa"),
                     "description": (
                         f"{username} performed {event_type} on "
                         f"{event.get('resource')} after suspicious authentication"
